@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-left: 5px;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-logo {
+  height: 40px;
+  width: 40px;
+}
+.inputs-container {
+  display: flex;
+}
+.password-image {
+  height: 150px;
+  width: 150px;
+}
+.password-container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-container {
+  display: flex;
+}
+.search-icon {
+  height: 10px;
+  width: 10px;
+}
+.line {
+  width: 80%;
+  text-align: center;
+}
+.checkbox-container {
+  display: flex;
+  align-self: flex-end;
+}
+.delete-icon {
+  height: 12px;
+  width: 12px;
+}
+.input-images {
+  display: flex;
+}
+.input-image {
+  height:10px;
+  width:10px;
+}
